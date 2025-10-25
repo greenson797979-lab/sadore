@@ -18,7 +18,7 @@ function Email() {
 export default function Home() {
   return (
     <>
-    <title>My web page</title>
+    <title>My Web Page</title>
     <div className="Heading">
       <h1>Join our newsletter</h1>
     </div>
