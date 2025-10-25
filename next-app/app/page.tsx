@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import { Poppins, Roboto } from "next/font/google";
 
 const poppins = Poppins({subsets: ["latin"], weight: ["400", "600", "500"]});
@@ -18,9 +19,9 @@ function Email() {
 export default function Home() {
   return (
     <>
-    <head>
+    <Head>
       <title>My Web Page</title>
-    </head>
+    </Head>
     <div className="Heading">
       <h1>Join our newsletter</h1>
     </div>
